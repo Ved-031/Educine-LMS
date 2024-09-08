@@ -8,6 +8,7 @@ This is a Learning Management System (LMS) website built using **Next.js 14** an
 - **Course Management**: Instructors can create courses, add attachments, add chapters, and reorder them using drag-and-drop functionality.
 - **Drag-and-Drop Reordering**: Powered by **hello-pangea/dnd**, instructors can reorder the chapters of a course.
 - **Email Notifications**: Email verification and password reset functionality using **Resend**.
+- **Wonderfull UI**: Nice user interface for good experience using **Shadcn UI** component library.
 - **API's**: Efficient server-side logic handling using **Next.js API Routes**.
 - **MongoDB Integration**: Data stored and managed using MongoDB with **Prisma** as the ORM.
 - **Uploathing Integration**: Videos, Images and the files are processed and stored using **UPLOADTHING**.
@@ -19,6 +20,7 @@ This is a Learning Management System (LMS) website built using **Next.js 14** an
 
 - **Next.js 14** - React framework for server-side rendering and static site generation.
 - **React** - Frontend library for building user interfaces.
+- **Shadcn** - A component library for creating better user interfaces.
 - **Clerk** - Authentication library with support for Credentials, Google, and GitHub login.
 - **Resend** - Service for sending verification and password reset emails.
 - **MongoDB** - NoSQL database for managing users and courses.
@@ -42,13 +44,16 @@ This is a Learning Management System (LMS) website built using **Next.js 14** an
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/lms-website.git
    cd lms-website
 2. Install dependencies
+
     ```bash
     npm install
 3. Create a .env file in the root directory with the following variables:
+
     ```bash
     DATABASE_URL=""
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -62,6 +67,7 @@ This is a Learning Management System (LMS) website built using **Next.js 14** an
     MUX_TOKEN_ID=
     MUX_TOKEN_SECRET=
 4. Run the development server
+
     ```bash
     npm run dev
 5. Open http://localhost:3000 to view the application
